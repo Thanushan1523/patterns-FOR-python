@@ -13,6 +13,16 @@
 #     print("*" ,end=" ")
 
 
+# n=int(input("enter number of rows:"))
+# for i in range (n):
+#     print("* " *n )
+
+
+# n=int(input("enter number of rows:"))
+# for i in range (n):
+#     print(str(n)  *n )
+
+
 n=int(input("enter number of rows:"))
 for i in range (n):
-    print("* " *n )
+    print((str(n) +" ") *n )

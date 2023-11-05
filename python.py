@@ -122,16 +122,26 @@
 #     print()
 
 
-n=int(input("enter number of rows:"))
-for i in range (n):
- print(" "*(n-1-i),"*" *(i+1))
+# n=int(input("enter number of rows:"))
+# for i in range (n):
+#  print(" "*(n-1-i),"*" *(i+1))
   
-for i in range (n-1):
-       print(" "*(i+1), "*"*(n-1-i))
+# for i in range (n-1):
+#        print(" "*(i+1), "*"*(n-1-i))
  
+# n=int(input("enter number of rows:"))
+# for i in range (n):
+#  print(" "*(n-1-i),"* " *(i+1))
+  
+# for i in range (n-1):
+#        print(" "*(i+1), "* "*(n-1-i))
+
+
+
+
 n=int(input("enter number of rows:"))
 for i in range (n):
- print(" "*(n-1-i),"* " *(i+1))
+ print("* " *(i+1))
   
 for i in range (n-1):
-       print(" "*(i+1), "* "*(n-1-i))
+       print("* "*(n-1-i))

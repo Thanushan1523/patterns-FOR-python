@@ -80,6 +80,15 @@
 #     i=i+2
 #     print(sum)
     
+num=int(input("enter your num:"))
+count=0
+sum=0
+i=1
+while count <num:
+    sum=sum+i
+    count=count+1
+    i=i+2
+    print(sum)
 # num=int(input("enter your num:"))
 # sum=0
 # i=2

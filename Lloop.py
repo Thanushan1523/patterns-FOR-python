@@ -80,15 +80,15 @@
 #     i=i+2
 #     print(sum)
     
-num=int(input("enter your num:"))
-count=0
-sum=0
-i=1
-while count <num:
-    sum=sum+i
-    count=count+1
-    i=i+2
-    print(sum)
+# num=int(input("enter your num:"))
+# count=0
+# sum=0
+# i=1
+# while count <num:
+#     sum=sum+i
+#     count=count+1
+#     i=i+2
+#     print(sum)
 # num=int(input("enter your num:"))
 # sum=0
 # i=2
@@ -97,9 +97,18 @@ while count <num:
 #     i=i+2
 #     print(sum)
 
+# n=int(input("enter your num:"))
+# for i in range(n+1):
+#     print("*" *i)
+n=int(input("enter your num:"))
+for i in range(n+1):
+    print(" "*(n-i-1),"* " *(i+1))
 
 
-
+# n=int(input("enter number of rows:"))
+# for i in range (n):
+    
+#     print(str(i+1) *n )
 
 
 

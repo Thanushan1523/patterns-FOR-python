@@ -139,9 +139,22 @@
 
 
 
-n=int(input("enter number of rows:"))
-for i in range (n):
- print("* " *(i+1))
+# n=int(input("enter number of rows:"))
+# for i in range (n):
+#  print("* " *(i+1))
   
-for i in range (n-1):
-       print("* "*(n-1-i))
+# for i in range (n-1):
+#        print("* "*(n-1-i))
+
+n=int(input("enter number of rows:"))
+for i in range(n):
+    for j in range(n):
+        if i == 1 and  j == 1:
+            print(" ", end=" ")
+        else:
+            print("*", end=" ")
+    print()
+
+
+
+
